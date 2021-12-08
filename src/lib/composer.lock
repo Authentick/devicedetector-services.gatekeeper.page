@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fda8c087fda486757dc94fdc065bae8",
+    "content-hash": "c72e7870c489a5ab46e7760d8fcc3f15",
     "packages": [
         {
             "name": "matomo/device-detector",
-            "version": "4.1.0",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "6b3facc35e7a465bc4223fddfa5fa88c5b327554"
+                "reference": "ebd8a07e4b69088c0e34f29ec72dc162c34c9264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/6b3facc35e7a465bc4223fddfa5fa88c5b327554",
-                "reference": "6b3facc35e7a465bc4223fddfa5fa88c5b327554",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/ebd8a07e4b69088c0e34f29ec72dc162c34c9264",
+                "reference": "ebd8a07e4b69088c0e34f29ec72dc162c34c9264",
                 "shasum": ""
             },
             "require": {
                 "mustangostang/spyc": "*",
-                "php": ">=7.2"
+                "php": "^7.2|^8.0"
             },
             "replace": {
                 "piwik/device-detector": "self.version"
@@ -67,7 +67,13 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2021-01-08T14:14:55+00:00"
+            "support": {
+                "forum": "https://forum.matomo.org/",
+                "issues": "https://github.com/matomo-org/device-detector/issues",
+                "source": "https://github.com/matomo-org/matomo",
+                "wiki": "https://dev.matomo.org/"
+            },
+            "time": "2021-12-07T11:40:16+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -127,5 +133,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
