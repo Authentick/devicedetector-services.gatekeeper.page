@@ -1,5 +1,5 @@
 {
     "require": {
-        "matomo/device-detector": "^4.1"
+        "matomo/device-detector": "^6.1"
     }
 }
